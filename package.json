@@ -1,0 +1,23 @@
+{
+  "name": "akashi-savingtime-calculator",
+  "version": "1.0.0",
+  "description": "Chrome拡張機能 - AKASHI SavingTime Calculator",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "chrome-extension",
+    "akashi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.7.2"
+  }
+}
+
