@@ -3,15 +3,12 @@
   "name": "AKASHI SavingTime Calculator",
   "version": "1.0.0",
   "description": "AKASHIの残業時間を計算するChrome拡張機能",
-  "permissions": [
-    "storage"
-  ],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["*://ak4.jp/*attendance*"],
       "js": ["content.js"]
     }
   ],
